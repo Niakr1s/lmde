@@ -5,5 +5,11 @@ pkgs=(
     handbrake
 )
 
+am_pkgs=(
+    losslesscut
+    obsidian
+)
+
 sudo apt install "${pkgs[@]}"
+am -i "${am_pkgs[@]}"
 
