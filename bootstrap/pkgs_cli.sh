@@ -11,6 +11,7 @@ pkgs=(
     borgbackup
     lazygit
     neovim
+    distrobox
 )
 
 sudo apt install "${pkgs[@]}"

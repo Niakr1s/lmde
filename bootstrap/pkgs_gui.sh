@@ -3,6 +3,7 @@
 pkgs=(
     keepassxc
     handbrake
+    virt-manager
 )
 
 am_pkgs=(
