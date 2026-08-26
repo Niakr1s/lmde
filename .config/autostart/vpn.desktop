@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=vpn on
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_GB]=vpn
+Comment[en_GB]=turn on vpn
+X-GNOME-Autostart-Delay=0
