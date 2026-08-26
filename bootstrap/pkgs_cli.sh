@@ -8,6 +8,8 @@ pkgs=(
     golang-go
     btm
     xclip
+    borgbackup
+    lazygit
 )
 
 sudo apt install "${pkgs[@]}"
