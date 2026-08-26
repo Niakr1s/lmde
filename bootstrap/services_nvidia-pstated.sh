@@ -18,7 +18,8 @@ install_nvidia_pstated() {
   sudo tee "$service_file" > /dev/null << 'EOF'
 [Unit]
 Description=A daemon that automatically manages the performance states of NVIDIA GPUs
-StartLimitInterval=0
+After=nvidia-persistenced.service nvpd.service
+BindsTo=nvidia-persistenced.service
 
 [Service]
 DynamicUser=yes
