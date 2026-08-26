@@ -10,6 +10,7 @@ pkgs=(
     xclip
     borgbackup
     lazygit
+    neovim
 )
 
 sudo apt install "${pkgs[@]}"
